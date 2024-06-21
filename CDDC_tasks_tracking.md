@@ -5,24 +5,28 @@
 #### &emsp; 2. 架构设计（Xuan）, 《ATE设计文档.md》
 #### &emsp; 3. 详细设计 （Zehao）
 ##### &emsp;&emsp; 3.1.    基础框架搭建
-&emsp;&emsp;&emsp; - console组件移植与修改√  
+&emsp;&emsp;&emsp; - console组件移植与修改√ 
 &emsp;&emsp; &emsp;- lua解释器√  
+
 ##### &emsp;&emsp; 3.2. 模块实现
-&emsp;&emsp;&emsp;-	spi模块√   
-&emsp;&emsp;&emsp;- common模块√  
-&emsp;&emsp;&emsp;-	mem模块√    
-&emsp;&emsp;&emsp;-	emmc/sd模块√   
-&emsp;&emsp;&emsp;-	ddr模块    
+&emsp;&emsp;&emsp;-	spi模块√ 
+&emsp;&emsp;&emsp;- common模块√ 
+&emsp;&emsp;&emsp;-	mem模块√ 
+&emsp;&emsp;&emsp;-	emmc/sd模块√ 
+&emsp;&emsp;&emsp;-	ddr模块 
 &emsp;&emsp;&emsp;（ddr pll配置函数/ddr初始化流程/training通过 Ok） 
-##### &emsp;&emsp;3.3. 初审分享会  
-<br> 
+
+##### &emsp;&emsp;3.3. 初审分享会
+
+
 
 ### 二 【PPE模块调研】（Team）
 &emsp;（PPE/Qos/HNAT/NSS） 
 #### &emsp; 1. 竞品处理流程分析
 ##### &emsp;&emsp;1.1. MTK (Richard)
-&emsp;&emsp;&emsp;- MT7981 开源代码分析 √  
+&emsp;&emsp;&emsp;- MT7981 开源代码分析 √ 
 &emsp;&emsp;&emsp;- BPI平台测试  （根据DPDK进行测试）
+
 ##### &emsp;&emsp;1.2. Qualcomm (Deon)
 &emsp;&emsp;&emsp;- NSS-PPE代码分析 
 #### &emsp;&emsp;1.3. NSS分析 √（Xuan）《ppe.pdf》
@@ -32,20 +36,21 @@
 ##### &emsp;&emsp;2.1. NetFPGA测试环境搭建
 &emsp;（因Full-Source-Package 无法从GitHub下载，切换到FPGA-Plus平台）
 ##### &emsp;&emsp;2.2. NetFPGA-Plus测试环境搭建   
-&emsp;&emsp;&emsp;- bit文件生成完成 √  
-<br>
+&emsp;&emsp;&emsp;- bit文件生成完成 √ 
+
 
 ### 三【竞品封装委外分析 】
+
 &emsp;(MT7981/MT7986/W3KMPW, MA-Tek, )   
 #### &emsp;1.    非破坏性测试（X-ray/OM）√
 #### &emsp;2.    破坏性测试
 #### &emsp;3.    封装技术调研（Kai）  
-<br>
+
 
 ### 四【W3KMPW验证】
 &emsp;(CPU Core/DDR/Flash/EMMC/SD/PCIe/Jesd204B/GMAC/ADC/DAC/测试工具/操作系统)
 #### &emsp;1. GMAC速率测试（VU13P FPGA）
-&emsp;（SNPS MAC + Xilinx PHY）<br>
+&emsp;（SNPS MAC + Xilinx PHY）
 ##### &emsp;&emsp; 1.1.   FPGA代码准备 (Sai)√
 ##### &emsp;&emsp; 1.2.   测试用例(Xuan)  
 &emsp;&emsp;&emsp;- 读写功能、DMA 、PTP、AXI
@@ -61,7 +66,6 @@
 #### &emsp;5. NAND flash 驱动开发（Lingsong）  
 &emsp;&emsp;&emsp;- spi   
 &emsp;&emsp;&emsp;- qspi   
-<br>
 
 ### 五【W3KMPW问题总结】
 #### &emsp;1.  Cache coherency (Richard/Xuan)
@@ -69,15 +73,18 @@
 #### &emsp;3.  I2C duty cycle (Dan)
 &emsp; &emsp;- I2C接口调试,问题定位中 (Sai)  
 #### &emsp;4.  JESD204B 多lane 读写问题 (Sai)   
-<br>
+
 
 ### 六【W3KMPW动态路由板测试】
 #### &emsp; 1.   测试问题调试
-&emsp;&emsp;- 打流测试时0.85V Core电压掉电问题已解决(Yawen)  √ <br>
-&emsp;&emsp;（更换RL电阻为4.4k,补偿电容为470PF，160M下上行发包正常）
+&emsp;&emsp;- 打流测试时0.85V Core电压掉电问题已解决(Yawen)  √     
+
+（更换RL电阻为4.4k,补偿电容为470PF，160M下上行发包正常）
+
 #### &emsp;2.   双频合一测试分析（Deon）  
-#### &emsp;3.   吞吐率测试分析（Kai）  
-<br>
+#### &emsp;3.   吞吐率测试分析（Kai）
+
+
 
 ### 七【路由器吞吐率测试环境搭建】
 #### &emsp; 1. STA陪测设备调试（Dan）√    
@@ -99,6 +106,12 @@
 
 ### 九【W3K FPGA development】
 #### &emsp;1.   APB到MDIO的通讯接口设计 （Judy）
+
+### 十【测试】
+
+#### &emsp;1.   测试01（Judy）
+
+####    2.测试02 （Deon )
 
 
 
