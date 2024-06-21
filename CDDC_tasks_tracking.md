@@ -12,12 +12,12 @@
 
 ##### &emsp;&emsp; 3.1.    基础框架搭建
 
-&emsp;&emsp;&emsp; - console组件移植与修改√  
+&emsp;&emsp;&emsp; - console组件移植与修改√ 
 &emsp;&emsp; &emsp;- lua解释器√  
 
 ##### &emsp;&emsp; 3.2. 模块实现
 
-&emsp;&emsp;&emsp;-	spi模块√  
+&emsp;&emsp;&emsp;-	spi模块√ 
 &emsp;&emsp;&emsp;-    common模块√  
 &emsp;&emsp;&emsp;-	mem模块√  
 &emsp;&emsp;&emsp;-	emmc/sd模块√  
