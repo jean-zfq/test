@@ -5,16 +5,16 @@
 #### &emsp; 2. 架构设计（Xuan）, 《ATE设计文档.md》
 #### &emsp; 3. 详细设计 （Zehao）
 ##### &emsp;&emsp; 3.1.    基础框架搭建
-&emsp;&emsp;&emsp; - console组件移植与修改√ 
+&emsp;&emsp;&emsp; - console组件移植与修改√  
 &emsp;&emsp; &emsp;- lua解释器√  
 
 ##### &emsp;&emsp; 3.2. 模块实现
-&emsp;&emsp;&emsp;-	spi模块√ 
-&emsp;&emsp;&emsp;- common模块√ 
-&emsp;&emsp;&emsp;-	mem模块√ 
-&emsp;&emsp;&emsp;-	emmc/sd模块√ 
-&emsp;&emsp;&emsp;-	ddr模块 
-&emsp;&emsp;&emsp;（ddr pll配置函数/ddr初始化流程/training通过 Ok） 
+&emsp;&emsp;&emsp;-	spi模块√  
+&emsp;&emsp;&emsp;- common模块√  
+&emsp;&emsp;&emsp;-	mem模块√  
+&emsp;&emsp;&emsp;-	emmc/sd模块√  
+&emsp;&emsp;&emsp;-	ddr模块  
+&emsp;&emsp;&emsp;（ddr pll配置函数/ddr初始化流程/training通过 Ok）  
 
 ##### &emsp;&emsp;3.3. 初审分享会
 
@@ -24,8 +24,8 @@
 &emsp;（PPE/Qos/HNAT/NSS） 
 #### &emsp; 1. 竞品处理流程分析
 ##### &emsp;&emsp;1.1. MTK (Richard)
-&emsp;&emsp;&emsp;- MT7981 开源代码分析 √ 
-&emsp;&emsp;&emsp;- BPI平台测试  （根据DPDK进行测试）
+&emsp;&emsp;&emsp;- MT7981 开源代码分析 √  
+&emsp;&emsp;&emsp;- BPI平台测试  （根据DPDK进行测试） 
 
 ##### &emsp;&emsp;1.2. Qualcomm (Deon)
 &emsp;&emsp;&emsp;- NSS-PPE代码分析 
@@ -109,9 +109,9 @@
 
 ### 十【测试】
 
-#### &emsp;1.   测试01（Judy）
+#### &emsp;1. 测试01（Judy）
 
-####    2.测试02 （Deon )
+#### &emsp;2. 测试02（Deon）
 
 
 
