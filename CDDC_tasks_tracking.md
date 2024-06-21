@@ -6,7 +6,45 @@
 
 #### &emsp; 2. 架构设计（Xuan）
 
-​           -《ATE设计文档.md》
+​           *-《ATE设计文档.md》*
+
+`程序 层v出v出vCBB`
+
+`https://github.com/jean-zfq/test/blob/main/CDDC_tasks_tracking.md`
+
+[](https://github.com/jean-zfq/test/blob/main/CDDC_tasks_tracking.md)
+
+[](https://www.baidu.com/)
+
+> 卡迪仓库
+>
+> 陈小姐才能
+
+
+
+1. 您的
+2. 机电局
+3. 打开
+4. 多少
+
+5. 层
+小程序 
+小程序
+
+
+
+- 效率惊喜你参加先看下
+- 形成
+- 小程序
+- 总线
+
+
+
+- [ ] 你的
+- [ ] 技术
+- [ ] jshcjb
+
+![](D:\Profiles\Pictures\Screenshots\屏幕截图 2024-06-19 174843.png)
 
 #### &emsp; 3. 详细设计 （Zehao）
 
@@ -22,7 +60,7 @@
 &emsp;&emsp;&emsp;-	mem模块√  
 &emsp;&emsp;&emsp;-	emmc/sd模块√  
 &emsp;&emsp;&emsp;-	ddr模块  
-&emsp;&emsp;&emsp;（ddr pll配置函数/ddr初始化流程/training通过 Ok）  
+&emsp;&emsp;&emsp;**（ddr pll配置函数/ddr初始化流程/training通过 Ok）**  
 
 ##### &emsp;&emsp;3.3. 初审分享会 √
 
