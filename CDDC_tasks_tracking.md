@@ -43,8 +43,8 @@
 
 
 - [x] 你的
-- [ ] 技术
-- [ ] jshcjb
+- [x] 技术
+- [x] jshcjb
 
 ![](D:\Profiles\Pictures\Screenshots\屏幕截图 2024-06-19 174843.png)
 
