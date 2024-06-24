@@ -18,25 +18,22 @@
 - [x] spi模块   
 - [x] common模块
 - [x] mem模块    
-
   - [x] compare改进(可打印2片空间的不同)  
-
 - [x] emmc/sd模块   
-- [ ] ddr模块    
-
-  &emsp;（ddr pll配置函数/ddr初始化流程/training通过 Ok）   
-
+- [ ] ddr模块 
+  
+  > （ddr pll配置函数/ddr初始化流程/training通过 Ok）   
+  
 - [ ] log模块     
 
   - [x] 分级控制实现   
-
 
 ##### 3.3. 初审分享会  √
 
 ##### 3.4. 模块测试  
 - [ ] DDR 测试   
 
-  &emsp;（ 1.单次测试的内存大小不能超过32K, 否则测试会失败 ）
+  > （ 1.单次测试的内存大小不能超过32K, 否则测试会失败 ）
 
 ####    4. 文档输出
 
@@ -52,10 +49,9 @@
 
 
 
-
 ### 二 【PPE模块调研】（Team）
 
-&emsp;（PPE/Qos/HNAT/NSS） 
+> （PPE/Qos/HNAT/NSS） 
 
 ####  1. 竞品处理流程分析
 
@@ -68,7 +64,7 @@
 
 - [ ] NSS-PPE代码分析 
 ##### 1.3. NSS分析 √（Xuan）《ppe.pdf》
-​	（架构，数据流，功能模块）
+> （架构，数据流，功能模块）
 
 - [ ]  描述符整理    （Tx/Rx/VLAN/Tso/QinQ/Timestamp?）
 
@@ -80,11 +76,12 @@
 
 ##### 2.1. NetFPGA测试环境搭建
 
-        （因Full-Source- Package 无法从GitHub下载，切换到FPGA-Plus平台） 
+> （因Full-Source- Package 无法从GitHub下载，切换到FPGA-Plus平台） 
 
 - [x]  自建仿真环境   
-    （netfpga工程代码，删除路由功能外的其他模块）  
-    （当前状态：device id读取以及寄存器读写，配置接口功能正常；数据流已通过GMII接口到达路由模块）  
+    
+    > （netfpga工程代码，删除路由功能外的其他模块）  
+    > （当前状态：device id读取以及寄存器读写，配置接口功能正常；数据流已通过GMII接口到达路由模块）  
 - [ ]  路由模块配置  
 - [ ]  功能仿真
 
@@ -100,7 +97,7 @@
 
 
 ### 四【W3KMPW验证】
-(CPU Core/DDR/Flash/EMMC/SD/PCIe/Jesd204B/GMAC/ADC/DAC/测试工具/操作系统)
+> (CPU Core/DDR/Flash/EMMC/SD/PCIe/Jesd204B/GMAC/ADC/DAC/测试工具/操作系统)
 
 #### 1. GMAC速率测试（VU13P FPGA）
 
@@ -119,19 +116,20 @@
 #### 3. I2C  接口测试 
 - [x] I2C接口测试（W3KMPW，GDB test script） (Dan) √ 
 - [ ] I2C接口测试（FPGA，IIC duty cycle issue fix） (Dan)  
- （查找无法读出寄存器的数据的原因，提供bit文件再继续测试）
+ 
+ > （查找无法读出寄存器的数据的原因，提供bit文件再继续测试）
 
 #### 4. PCIE验证（Team）  √
-- [x] bar地址读写√   
-- [x] DMA功能√  
+- [x] bar地址读写  
+- [x] DMA功能  
 
 #### 5. NAND flash 驱动开发（Lingsong）  
 ##### 5.1 spi   
- - [x] 驱动设计 √
+ - [x] 驱动设计 
  - [ ] 功能验证 
-   - [x] reset功能√
-   - [x] 读取id√
-   - [x] 读写状态寄存器√
+   - [x] reset功能
+   - [x] 读取id
+   - [x] 读写状态寄存器
 ##### 5.2 qspi
 
 
@@ -145,17 +143,19 @@
 
  - [ ] I2C接口调试,问题定位中 (Sai)  
 
-   问题定位：APB2IIC信号抓取分析（IIC0的scl正常运行；IIC1没有时钟） (Judy)  
+   > 问题定位：APB2IIC信号抓取分析（IIC0的scl正常运行；IIC1没有时钟） (Judy)  
 
 #### 4.  JESD204B 多lane 读写问题 (Sai)   
 
 
 ### 六【W3KMPW动态路由板测试】
 ####  1.   测试问题调试
-- [x] 打流测试时0.85V Core电压掉电问题已解决(Yawen)  √    
+- [x] 打流测试时0.85V Core电压掉电问题已解决(Yawen)      
 
-  （更换RL电阻为4.4k,补偿电容为470PF，160M下上行发包正常）
-#### 2.   双频合一测试分析（Deon）  
+  > （更换RL电阻为4.4k,补偿电容为470PF，160M下上行发包正常）
+
+#### 2.   双频合一测试分析（Deon）
+
 #### 3.   吞吐率测试分析（Kai）
 
 
@@ -171,10 +171,12 @@
 #### 1.   GMAC 驱动移植（Richard）√
 
 - [x] 动态板串口乱码问题已解决√   
-（原因：波特率不对；措施：设置波特率为105700）  
+
+  > （原因：波特率不对；措施：设置波特率为105700）  
 
 - [x] DVT GMAC调试  
-（当前状态：gmac和phy连接OK； 网速测试百兆OK； 千兆接收情况下出现panic的问题已解决OK（千兆：接收为200Mbps，发送为312Mbps））
+
+  > （当前状态：gmac和phy连接OK； 网速测试百兆OK； 千兆接收情况下出现panic的问题已解决OK（千兆：接收为200Mbps，发送为312Mbps））
 
 
 
@@ -198,5 +200,5 @@
 
 #####  3.1.   动态板Rework导致以太网无法使用问题暂未解决       √
 
- （原因：变压器的问题；措施：重焊变压器未解决）   
+> （原因：变压器的问题；措施：重焊变压器未解决）   
 
