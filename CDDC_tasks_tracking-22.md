@@ -116,8 +116,7 @@
 #### 3. I2C  接口测试 
 - [x] I2C接口测试（W3KMPW，GDB test script） (Dan) √ 
 - [ ] I2C接口测试（FPGA，IIC duty cycle issue fix） (Dan)  
- 
- > （查找无法读出寄存器的数据的原因，提供bit文件再继续测试）
+  >（查找无法读出寄存器的数据的原因，提供bit文件再继续测试）
 
 #### 4. PCIE验证（Team）  √
 - [x] bar地址读写  
