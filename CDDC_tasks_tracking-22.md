@@ -1,6 +1,7 @@
 ## 2024年6月24日 第26周例会  任务看板
 
 ### 一【W3K集成测试环境开发】
+
 ####  1.	ATE测试软件需求梳理√
 ####  2. 架构设计（Xuan）
 
@@ -31,105 +32,121 @@
 
 ##### 3.3. 初审分享会  √
 
-##### 3.4. 模块测试  
+##### 3.4. 模块测试
+
 - [ ] DDR 测试   
 
   > （ 1.单次测试的内存大小不能超过32K, 否则测试会失败 ）
 
-####    4. 文档输出
-
-- [ ]  《ATE设计文档.md》
-
-- [x] 《W3K SOC 验证系统.md》 
-
-- [x] 《ATE固件软件实现架构.md》  
-
-- [x] 《ATE固件开发指南.md》   
-
-- [x] 《ATE固件用户手册.md》   
-
-
-
-### 二 【PPE模块调研】（Team）
-
-> （PPE/Qos/HNAT/NSS） 
-
-####  1. 竞品处理流程分析
-
-##### 1.1. MTK (Richard)
-
-- [x] MT7981 （HNAT/IPV4）开源代码分析   
-- [ ] BPI平台测试  （根据DPDK进行测试） 
-
-##### 1.2. Qualcomm (Deon)
-
-- [ ] NSS-PPE代码分析 
-##### 1.3. NSS分析 √（Xuan）《ppe.pdf》
-> （架构，数据流，功能模块）
-
-- [ ]  描述符整理    （Tx/Rx/VLAN/Tso/QinQ/Timestamp?）
-
-##### 1.4. 应用场景分析
-
-- [ ] 基于CMCC 测试文件提取关于PPE的的要求（ACL/Qos）
-
-#### 2. NetFPGA（PPE）原型分析 （Sai）
-
-##### 2.1. NetFPGA测试环境搭建
-
-> （因Full-Source- Package 无法从GitHub下载，切换到FPGA-Plus平台） 
-
-- [x]  自建仿真环境   
-  
-    > （netfpga工程代码，删除路由功能外的其他模块）  
-    > （当前状态：device id读取以及寄存器读写，配置接口功能正常；数据流已通过GMII接口到达路由模块）  
-- [ ]  路由模块配置  
-- [ ]  功能仿真
-
-##### 2.2. NetFPGA- [x]Plus测试环境搭建
-- [x] bit文件生成完成 √ 
-
-
-### 三【竞品封装委外分析 】
-(MT7981/MT7986/W3KMPW, MA-Tek, )   
-#### 1.    非破坏性测试（X-ray/OM）√
-#### 2.    破坏性测试
-#### 3.    封装技术调研（Kai）  
-
-
-### 四【W3KMPW验证】
-> (CPU Core/DDR/Flash/EMMC/SD/PCIe/Jesd204B/GMAC/ADC/DAC/测试工具/操作系统)
-
-#### 1. GMAC速率测试（VU13P FPGA）
-
-（SNPS MAC + Xilinx PHY）<br>
-
-#####  1.1.   FPGA代码准备 (Sai)√
-
-#####  1.2.   测试用例(Xuan)
-
-- [x] 读写功能、DMA 、PTP、AXI
-
-#####  1.3.   测试工作(Xuan)
-
-#### 2. GMAC速率测试（W3KMPW）
-
-#### 3. I2C  接口测试 
-- [x] I2C接口测试（W3KMPW，GDB test script） (Dan) √ 
-- [ ] I2C接口测试（FPGA，IIC duty cycle issue fix） (Dan)  
-  >（查找无法读出寄存器的数据的原因，提供bit文件再继续测试）
-
-#### 4. PCIE验证（Team）  √
-- [x] bar地址读写  
-- [x] DMA功能  
+---
 
 #### 5. NAND flash 驱动开发（Lingsong）  
-##### 5.1 spi   
+##### 5.1 spi
+
  - [x] 驱动设计 
+
  - [ ] 功能验证 
    - [x] reset功能
+   
    - [x] 读取id
+   
    - [x] 读写状态寄存器
+   
+       
+
+```c
+cvc
+    cvc 
+    cvc 
+    3个``` +  C/java是代码块  
+```
+
+数学公式
+$$
+(a+b)/2=a/2+b/2
+$$
+
+
+ 表格
+
+| 姓名 | 年龄 | 班级 |
+| :--- | :--: | ---: |
+|      |      |      |
+
+脚注：
+
+一件三联[^三联]
+
+---
+
+
+
+三个横线加横线  ---
+
+---
+
+
+
+----搜索引擎
+
+[百度](baidu.com "一个搜索引擎")
+
+---引用链接
+
+[百度][id]
+
+[id]：https://www.baidu.com/“一个搜索引擎”
+
+请参考[标题一](#一【W3K集成测试环境开发】)
+
+
+
+ULR:
+
+https://www.bilibili.com/
+
+
+
+图片
+
+![鲜花](https://www.baidu.com/"百度")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[^三联]:点赞，收藏，投币
+
 ##### 5.2 qspi
 
 1. bcnv 
