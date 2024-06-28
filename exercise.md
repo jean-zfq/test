@@ -148,16 +148,18 @@ typero目录github不支持，要自己链接
 ### 图片
 
 
-
 ```
 ![Alt text](/path/to/img.jpg)
 
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-![VLAN 测试 ](..\git\test\pic\1vlan.png)
+![VLAN 测试 ](...\pic\1vlan.png)
 
-![Alt text](..\git\test\pic\1vlan.png"测试")
+![Alt text](...\pic\1vlan.png"测试")    
+
+![]()
+
  需要把绝对路径更改为相对路径，保证pic 中有图片
  
 ### 强调 emphasis  斜体
