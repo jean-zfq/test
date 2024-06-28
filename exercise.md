@@ -121,6 +121,8 @@ $$
 
 [TOC]
 
+typero目录github不支持，要自己链接
+
 
 
 # 3. Span Elements
@@ -153,10 +155,11 @@ $$
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-![VLAN 测试 ](D:\芯带&Zeng工作\git\test\pic\1vlan.png)
+![VLAN 测试 ](..\git\test\pic\1vlan.png)
 
-![Alt text](D:\芯带&Zeng工作\git\test\pic\1vlan.png"测试")
-
+![Alt text](..\git\test\pic\1vlan.png"测试")
+ 需要把绝对路径更改为相对路径，保证pic 中有图片
+ 
 ### 强调 emphasis  斜体
 
 使用*   *   或者_  _
@@ -201,6 +204,7 @@ _第2个斜体_
 
 H~2~0  
 
+>这个也不支持
 
 
 # 4. HTML
